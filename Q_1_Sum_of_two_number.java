@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Q_1_Sum_of_two_number {
+    //Take two numbers and print the sum of both.
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
         int a,b;
