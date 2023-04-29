@@ -7,7 +7,7 @@ public class Q_5_print_inputs_till_the_user_enters_x {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int sum = 0;
-        System.out.print("Enter a number (or 'x' to exit): ");
+        System.out.print("Enter a number (or 'x' to exit):- ");
         while (true) {
             String input = scan.nextLine();
             if (input.equals("x")) {

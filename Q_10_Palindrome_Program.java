@@ -21,7 +21,7 @@ public class Q_10_Palindrome_Program {
         if(temp==sum)
             System.out.println("palindrome number ");
         else
-            System.out.println("not palindrome");
+            System.out.println("not palindrome ");
     }
 
 }

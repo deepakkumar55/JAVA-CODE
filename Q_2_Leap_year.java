@@ -6,7 +6,7 @@ public class Q_2_Leap_year {
 
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
-        System.out.print("Enter the year :-  ");
+        System.out.print("Enter the year:-  ");
         int n=sc.nextInt();
         if(n/4==0){
             System.out.println("Its Leap Year:- "+n);

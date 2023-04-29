@@ -27,7 +27,7 @@ public class Q_4_HCF_LCF {
         hcf = temp1;
         lcm = (num1*num2)/hcf;
 
-        System.out.println("HCF of input numbers: "+hcf);
-        System.out.println("LCM of input numbers: "+lcm);
+        System.out.println("HCF of input numbers:- "+hcf);
+        System.out.println("LCM of input numbers:- "+lcm);
     }
 }
