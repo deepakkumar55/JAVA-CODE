@@ -78,3 +78,31 @@ public class PahlaProgram {
 }
 ```
 
+# compile time?
+![App Screenshot](https://static.javatpoint.com/images/core/javacodecompile.png)
+
+# runtime?
+
+![App Screenshot](https://static.javatpoint.com/images/java-runtime-processing.png)
+
+- Classloader: It is the subsystem of JVM that is used to load class files.
+
+- Bytecode Verifier: Checks the code fragments for illegal code that can violate access rights to objects.
+
+- Interpreter: Read bytecode stream then execute the instructions.
+
+# Difference between JDK, JRE, and JVM
+- JDK (Java Development Kit): JDK ek aisa package hai jo Java application aur software development ke liye use hota hai. Ismein Java compiler, libraries, aur development tools shaamil hote hain. JDK ka upyog Java code ko likhne, compile karne aur execute karne ke liye hota hai.
+  ![App Screenshot](https://static.javatpoint.com/images/jdk2.png)
+
+- JRE (Java Runtime Environment): JRE ek aisa environment hai jisme Java applications run hoti hain. Yeh ek runtime package hai jo Java ke compiled code (bytecode) ko execute karne ki suvidha pradaan karta hai. JRE mein JVM (Java Virtual Machine) bhi shaamil hoti hai.
+  ![App Screenshot](https://static.javatpoint.com/images/jre2.png)
+
+- JVM (Java Virtual Machine): JVM ek aisa virtual machine hai jo Java bytecode ko execute karta hai. Jab Java code ko compile karte hain, toh iska output bytecode format mein hota hai. Yeh bytecode JVM mein run hota hai. JVM bytecode ko machine-specific instructions mein translate karta hai aur usko hardware par execute karne ke liye responsible hota hai.
+
+# JVM Architecture
+
+![App Screenshot](https://static.javatpoint.com/images/jvm-architecture.png)
+
+# Java Variables
+- Java ke variables uss program mei values ko store karne ke liye use hote hai. Variables ek naam se pukare jaate hai aur unmein alag-alag types ki values rakhi ja sakti hai, jaise numbers, strings, ya phir objects. Jab hum koi variable create karte hai, to usko ek naam dete hai, jisse hum usko refer kar sake. Variable ko create karne ke liye hume uski data type bhi specify karni hoti hai, jaise int, float, ya string. Ek baar variable create ho gaya hai, usmein hum value assign kar sakte hai aur badle mein us value ko program ke dusre parts mein use kar sakte hai. Variables ke naam case-sensitive hote hai, yaani uppercase aur lowercase letters ka farak hota hai.
