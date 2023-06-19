@@ -93,10 +93,12 @@ public class PahlaProgram {
 
 # Difference between JDK, JRE, and JVM
 - JDK (Java Development Kit): JDK ek aisa package hai jo Java application aur software development ke liye use hota hai. Ismein Java compiler, libraries, aur development tools shaamil hote hain. JDK ka upyog Java code ko likhne, compile karne aur execute karne ke liye hota hai.
-  ![App Screenshot](https://static.javatpoint.com/images/jdk2.png)
+
+![App Screenshot](https://static.javatpoint.com/images/jdk2.png)
 
 - JRE (Java Runtime Environment): JRE ek aisa environment hai jisme Java applications run hoti hain. Yeh ek runtime package hai jo Java ke compiled code (bytecode) ko execute karne ki suvidha pradaan karta hai. JRE mein JVM (Java Virtual Machine) bhi shaamil hoti hai.
-  ![App Screenshot](https://static.javatpoint.com/images/jre2.png)
+
+![App Screenshot](https://static.javatpoint.com/images/jre2.png)
 
 - JVM (Java Virtual Machine): JVM ek aisa virtual machine hai jo Java bytecode ko execute karta hai. Jab Java code ko compile karte hain, toh iska output bytecode format mein hota hai. Yeh bytecode JVM mein run hota hai. JVM bytecode ko machine-specific instructions mein translate karta hai aur usko hardware par execute karne ke liye responsible hota hai.
 
@@ -106,3 +108,35 @@ public class PahlaProgram {
 
 # Java Variables
 - Java ke variables uss program mei values ko store karne ke liye use hote hai. Variables ek naam se pukare jaate hai aur unmein alag-alag types ki values rakhi ja sakti hai, jaise numbers, strings, ya phir objects. Jab hum koi variable create karte hai, to usko ek naam dete hai, jisse hum usko refer kar sake. Variable ko create karne ke liye hume uski data type bhi specify karni hoti hai, jaise int, float, ya string. Ek baar variable create ho gaya hai, usmein hum value assign kar sakte hai aur badle mein us value ko program ke dusre parts mein use kar sakte hai. Variables ke naam case-sensitive hote hai, yaani uppercase aur lowercase letters ka farak hota hai.
+  ![App Screenshot](https://static.javatpoint.com/core/images/variable.png)
+
+```
+int data=50;//Here data is variable  
+```
+## Types of Variables
+
+![App Screenshot](https://static.javatpoint.com/core/images/types-of-variables1.png)
+
+- #### Local Variable
+Local variable woh variables hote hai jo sirf ek specific block mein ya method mein use hote hai. Inhe method ke andar declare kiya jata hai aur unka scope sirf us method tak hi simit hota hai. Jab method ka execution khatm ho jata hai, tab local variable ki value destroy ho jati hai.
+
+- #### Instance Variable
+Instance variable woh variables hote hai jo class ke andar declare kiye jate hai, lekin kisi bhi method ke andar nahi. Inhein class ke har object ke saath ek sath banaya jata hai. Instance variables ka scope poore class tak hota hai, isliye inhein class ke bahar bhi access kiya ja sakta hai. Instance variables ka value object ke creation ke saath initialize hota hai aur object delete hone tak rehta hai.
+
+- #### Static Variable
+Static variable woh variables hote hai jo class ke andar declare kiye jate hai aur keyword "static" ke saath associate kiye jate hai. Ye variable sirf ek baar memory mein allocate hote hai, chahe us class se kitne bhi objects banaye jaaye. Static variables ka scope poore class mein hota hai. Inhein class ke bina bhi access kiya ja sakta hai. Static variables ki value class ke load hone se pehle initialize hoti hai aur program ke end tak rehti hai.
+
+```
+public class A  
+{  
+    static int m=100;//static variable  
+    void method()  
+    {    
+        int n=90;//local variable    
+    }  
+    public static void main(String args[])  
+    {  
+        int data=50;//instance variable    
+    }  
+}//end of class   
+```
