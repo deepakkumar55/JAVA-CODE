@@ -1,4 +1,3 @@
-
 # JAVA
 
 - Java ek high-level, object-oriented programming language hai jo bahut popular hai software development mein. Iska upyog applications, web development, mobile apps aur bahut kuch ke liye hota hai. Java platform-independent hai, matlab ki iska code aap ek jagah likh sakte hai aur dusri jagah usko chala sakte hai.
