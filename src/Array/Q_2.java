@@ -1,17 +1,17 @@
 package Array;
 
-// Java Program for finding the largest element of the array
+// Java Program for finding the smallest element of the array
 
-public class Q_1 {
+public class Q_2 {
     public static void main(String[] args) {
         int arr[] = {112, 13, 1, 10, 34, 10};
 
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (max<arr[i]) {
+            if (max>arr[i]) {
                 max=arr[i];
             }
         }
-        System.out.println("Largent number in the array is the :- "+ max);
+        System.out.println("Smallest number in the array is the :- "+ max);
     }
 }
