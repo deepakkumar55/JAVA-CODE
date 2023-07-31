@@ -13,5 +13,4 @@ public class Q_11 {
         }
         System.out.println ("Sum of digits : " + sum);
     }
-    
 }
